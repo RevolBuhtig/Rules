@@ -67,19 +67,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "||torproject.org",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 7,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
-    },
-    "condition": {
-      "urlFilter": "||waterfox.com",
+      "urlFilter": "||opera.com",
       "resourceTypes": ["main_frame"]
     }
   }
