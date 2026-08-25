@@ -10,5 +10,65 @@
       "urlFilter": "||gemini.google.com",
       "resourceTypes": ["main_frame"]
     }
-  }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||firefox.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||brave.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||vivaldi.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||torproject.org",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||torproject.org",
+      "resourceTypes": ["main_frame"]
+    }
+  },
 ]
