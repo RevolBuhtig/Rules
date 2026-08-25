@@ -334,5 +334,19 @@
       "urlFilter": "||minbrowser.org^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 25,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||netsurf-browser.org^",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
