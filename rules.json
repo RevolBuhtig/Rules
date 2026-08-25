@@ -390,5 +390,19 @@
       "urlFilter": "||qutebrowser.org^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 28,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||quran.com^",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
