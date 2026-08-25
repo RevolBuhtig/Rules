@@ -404,5 +404,19 @@
       "urlFilter": "||quran.com^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 30,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/suspend.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||avast.ua^",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
