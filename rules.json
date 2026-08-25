@@ -320,5 +320,19 @@
       "urlFilter": "||alohabrowser.com^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 24,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||minbrowser.org^",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
