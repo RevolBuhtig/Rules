@@ -429,7 +429,7 @@
       }
     },
     "condition": {
-      "urlFilter": "||apps.microsoft.org^",
+      "urlFilter": "||apps.microsoft.com^",
       "resourceTypes": ["main_frame"]
     }
   },
