@@ -252,20 +252,6 @@
     }
   },
   {
-    "id": 19,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/suspend.html"
-      }
-    },
-    "condition": {
-      "urlFilter": "||perplexity.ai^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
     "id": 20,
     "priority": 1,
     "action": {
@@ -490,7 +476,7 @@
     }
   },
   {
-    "id": 36,
+    "id": 19,
     "priority": 1,
     "action": {
       "type": "redirect",
