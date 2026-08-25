@@ -485,7 +485,7 @@
       }
     },
     "condition": {
-      "urlFilter": "||perplexity.ai/comet",
+      "regexFilter": "^https?://(www\\.)?perplexity\\.ai/comet(?:[/?#].*)?$",
       "resourceTypes": ["main_frame"]
     }
   }
