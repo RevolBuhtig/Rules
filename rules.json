@@ -1,5 +1,16 @@
 [
   {
+    "_type": "protectedSites",
+    "sites": [
+      "perplexity.ai",
+      "meduza.io",
+      "svoboda.org"
+    ],
+    "exclude": [
+      "perplexity.ai/comet"
+    ]
+  },
+  {
     "id": 1,
     "priority": 1,
     "action": {
