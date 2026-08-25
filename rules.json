@@ -4,11 +4,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||gemini.google.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -16,11 +18,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||firefox.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -28,11 +32,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||brave.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -40,11 +46,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||vivaldi.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -52,11 +60,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||torproject.org^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -64,11 +74,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||opera.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -76,11 +88,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||waterfox.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -88,11 +102,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||palemoon.org^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -100,11 +116,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||librewolf.net^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -112,11 +130,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||maxthon.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -124,11 +144,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||wavebrowser.co^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -136,11 +158,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||floorp.app^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -148,11 +172,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||avast.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -160,11 +186,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||avg.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -172,11 +200,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||epicbrowser.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -184,11 +214,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||astian.org^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -196,11 +228,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||kmeleonbrowser.org^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -208,11 +242,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||falkon.org^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -220,11 +256,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||perplexity.ai^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -232,11 +270,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||nyxt.atlas.engineer^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -244,11 +284,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||arc.net^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -256,11 +298,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||colibri.opqr.co^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -268,11 +312,13 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
     },
     "condition": {
       "urlFilter": "||alohabrowser.com^",
-      "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
+      "resourceTypes": ["main_frame"]
     }
   }
 ]
