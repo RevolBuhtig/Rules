@@ -7,7 +7,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*gemini.google.com*",
+      "urlFilter": "||gemini.google.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -19,7 +19,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*firefox.com*",
+      "urlFilter": "||firefox.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -31,7 +31,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*brave.com*",
+      "urlFilter": "||brave.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -43,7 +43,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*vivaldi.com*",
+      "urlFilter": "||vivaldi.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -55,7 +55,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*torproject.org*",
+      "urlFilter": "||torproject.org^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -67,7 +67,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*opera.com*",
+      "urlFilter": "||opera.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -79,7 +79,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*waterfox.com*",
+      "urlFilter": "||waterfox.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -91,7 +91,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*palemoon.org*",
+      "urlFilter": "||palemoon.org^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -103,7 +103,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*librewolf.net*",
+      "urlFilter": "||librewolf.net^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -115,7 +115,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*maxthon.com*",
+      "urlFilter": "||maxthon.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -127,7 +127,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*wavebrowser.co*",
+      "urlFilter": "||wavebrowser.co^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -139,7 +139,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*floorp.app*",
+      "urlFilter": "||floorp.app^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -151,7 +151,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*avast.com*",
+      "urlFilter": "||avast.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -163,7 +163,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*avg.com*",
+      "urlFilter": "||avg.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -175,7 +175,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*epicbrowser.com*",
+      "urlFilter": "||epicbrowser.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -187,7 +187,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*astian.org*",
+      "urlFilter": "||astian.org^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -199,7 +199,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*kmeleonbrowser.org*",
+      "urlFilter": "||kmeleonbrowser.org^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -211,7 +211,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*falkon.org*",
+      "urlFilter": "||falkon.org^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -223,7 +223,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*perplexity.ai*",
+      "urlFilter": "||perplexity.ai^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -235,7 +235,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*nyxt.atlas.engineer*",
+      "urlFilter": "||nyxt.atlas.engineer^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -247,7 +247,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*arc.net*",
+      "urlFilter": "||arc.net^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -259,7 +259,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*colibri.opqr.co*",
+      "urlFilter": "||colibri.opqr.co^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   },
@@ -271,7 +271,7 @@
       "redirect": { "extensionPath": "/block.html" }
     },
     "condition": {
-      "urlFilter": "*alohabrowser.com*",
+      "urlFilter": "||alohabrowser.com^",
       "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "ping", "csp_report", "media", "websocket", "webtransport", "webbundle", "other"]
     }
   }
