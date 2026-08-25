@@ -71,4 +71,16 @@
       "resourceTypes": ["main_frame"]
     }
   },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||waterfox.com",
+      "resourceTypes": ["main_frame"]
+    }
+  }
 ]
