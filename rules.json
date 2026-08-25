@@ -257,7 +257,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "extensionPath": "/block.html"
+        "extensionPath": "/suspend.html"
       }
     },
     "condition": {
@@ -472,6 +472,20 @@
     },
     "condition": {
       "urlFilter": "||download.it^",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 35,
+    "priority": 2,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||perplexity.ai/comet^",
       "resourceTypes": ["main_frame"]
     }
   }
