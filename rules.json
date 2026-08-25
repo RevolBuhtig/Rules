@@ -362,5 +362,33 @@
       "urlFilter": "||ladybird.org^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 27,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||luakit.github.io^",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 28,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||qutebrowser.org^",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
