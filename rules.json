@@ -425,7 +425,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "extensionPath": "/suspend.html"
+        "extensionPath": "/block.html"
       }
     },
     "condition": {
@@ -439,7 +439,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "extensionPath": "/suspend.html"
+        "extensionPath": "/block.html"
       }
     },
     "condition": {
@@ -453,7 +453,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "extensionPath": "/suspend.html"
+        "extensionPath": "/block.html"
       }
     },
     "condition": {
@@ -467,7 +467,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "extensionPath": "/suspend.html"
+        "extensionPath": "/block.html"
       }
     },
     "condition": {
