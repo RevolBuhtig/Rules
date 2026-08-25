@@ -252,6 +252,20 @@
     }
   },
   {
+    "id": 19,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||er.ru^",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
     "id": 20,
     "priority": 1,
     "action": {
@@ -471,21 +485,7 @@
       }
     },
     "condition": {
-      "urlFilter": "||perplexity.ai/comet^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 19,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
-      }
-    },
-    "condition": {
-      "urlFilter": "||er.ru^",
+      "urlFilter": "||perplexity.ai/comet",
       "resourceTypes": ["main_frame"]
     }
   }
