@@ -418,5 +418,61 @@
       "urlFilter": "||avast.ua^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 31,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/suspend.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||apps.microsoft.org^",
+      "resourceTypes": ["main_frame"]
+    },
+    {
+    "id": 32,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/suspend.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||uptodown.com^",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 33,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/suspend.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||softportal.com^",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 34,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/suspend.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||download.it^",
+      "resourceTypes": ["main_frame"]
+    }
+  }
   }
 ]
