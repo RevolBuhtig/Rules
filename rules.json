@@ -1,503 +1,578 @@
-[
-  {
-    "_type": "protectedSites",
-    "sites": [
-      "perplexity.ai",
-      "meduza.io",
-      "svoboda.org"
-    ],
-    "exclude": [
-      "perplexity.ai/comet"
-    ]
-  },
-  {
-    "id": 1,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+{
+  "protectedSites": [
+    {
+      "host": "perplexity.ai",
+      "excludePaths": [
+        "/comet"
+      ]
+    },
+    {
+      "host": "meduza.io"
+    },
+    {
+      "host": "svoboda.org"
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||gemini.google.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||gemini.google.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 2,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 2,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||firefox.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||firefox.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 3,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 3,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||brave.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||brave.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 4,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 4,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||vivaldi.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||vivaldi.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 5,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 5,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||torproject.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||torproject.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 6,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 6,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||opera.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||opera.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 7,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 7,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||waterfox.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||waterfox.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 8,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 8,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||palemoon.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||palemoon.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 9,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 9,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||librewolf.net^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||librewolf.net^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 10,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 10,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||maxthon.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||maxthon.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 11,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 11,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||wavebrowser.co^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||wavebrowser.co^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 12,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 12,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||floorp.app^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||floorp.app^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 13,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 13,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||avast.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||avast.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 14,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 14,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||avg.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||avg.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 15,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 15,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||epicbrowser.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||epicbrowser.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 16,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 16,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||astian.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||astian.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 17,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 17,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||kmeleonbrowser.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||kmeleonbrowser.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 18,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 18,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||falkon.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||falkon.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 19,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 19,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||er.ru^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||er.ru^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 20,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 20,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||nyxt.atlas.engineer^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||nyxt.atlas.engineer^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 21,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 21,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||arc.net^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||arc.net^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 22,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 22,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||colibri.opqr.co^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||colibri.opqr.co^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 23,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 23,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||alohabrowser.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||alohabrowser.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 24,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 24,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||minbrowser.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||minbrowser.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 25,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 25,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||netsurf-browser.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||netsurf-browser.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 26,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 26,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||ladybird.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||ladybird.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 27,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 27,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||luakit.github.io^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||luakit.github.io^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 28,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 28,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||qutebrowser.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||qutebrowser.org^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 29,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 29,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||quran.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||quran.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 30,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/suspend.html"
+    {
+      "id": 30,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/suspend.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||avast.ua^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||avast.ua^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 31,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 31,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||apps.microsoft.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||apps.microsoft.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 32,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 32,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||uptodown.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||uptodown.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 33,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 33,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||softportal.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||softportal.com^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 34,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 34,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||download.it^",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
     },
-    "condition": {
-      "urlFilter": "||download.it^",
-      "resourceTypes": ["main_frame"]
-    }
-  },
-  {
-    "id": 35,
-    "priority": 2,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/block.html"
+    {
+      "id": 35,
+      "priority": 2,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "regexFilter": "^https?://(www\\.)?perplexity\\.ai/comet(?:[/?#].*)?$",
+        "resourceTypes": [
+          "main_frame"
+        ]
       }
-    },
-    "condition": {
-      "regexFilter": "^https?://(www\\.)?perplexity\\.ai/comet(?:[/?#].*)?$",
-      "resourceTypes": ["main_frame"]
     }
-  }
-]
+  ]
+}
