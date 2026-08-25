@@ -488,5 +488,19 @@
       "urlFilter": "||perplexity.ai/comet^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 36,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||er.ru^",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
