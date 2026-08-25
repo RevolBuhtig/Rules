@@ -82,5 +82,41 @@
       "urlFilter": "||waterfox.com",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||palemoon.org",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 9,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||librewolf.net",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 10,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "||maxthon.com",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
