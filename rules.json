@@ -431,8 +431,9 @@
     "condition": {
       "urlFilter": "||apps.microsoft.org^",
       "resourceTypes": ["main_frame"]
-    },
-    {
+    }
+  },
+  {
     "id": 32,
     "priority": 1,
     "action": {
@@ -474,5 +475,5 @@
       "resourceTypes": ["main_frame"]
     }
   }
-  }
+]
 ]
