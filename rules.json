@@ -4,7 +4,7 @@
     "priority": 1,
     "action": {
       "type": "redirect",
-      "redirect": { "extensionPath": "/block.html" }
+      "redirect": { "extensionPath": "/suspend.html" }
     },
     "condition": {
       "urlFilter": "||gemini.google.com",
