@@ -348,5 +348,19 @@
       "urlFilter": "||netsurf-browser.org^",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 26,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "||ladybird.org^",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]
