@@ -573,6 +573,22 @@
           "main_frame"
         ]
       }
+    },
+    {
+      "id": 36,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||hadith.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
     }
   ]
 }
