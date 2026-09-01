@@ -589,6 +589,70 @@
           "main_frame"
         ]
       }
+    },
+    {
+      "id": 37,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||sunnah.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||islamicfinder.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||muslimpro.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||islambasics.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
     }
   ]
 }
