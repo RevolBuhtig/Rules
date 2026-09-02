@@ -468,7 +468,7 @@
       "action": {
         "type": "redirect",
         "redirect": {
-          "extensionPath": "/block.html"
+          "extensionPath": "/block_youreabouttoexplode.html"
         }
       },
       "condition": {
@@ -580,7 +580,7 @@
       "action": {
         "type": "redirect",
         "redirect": {
-          "extensionPath": "/block.html"
+          "extensionPath": "/block_youreabouttoexplode.html"
         }
       },
       "condition": {
@@ -596,7 +596,7 @@
       "action": {
         "type": "redirect",
         "redirect": {
-          "extensionPath": "/block.html"
+          "extensionPath": "/block_youreabouttoexplode.html"
         }
       },
       "condition": {
@@ -612,7 +612,7 @@
       "action": {
         "type": "redirect",
         "redirect": {
-          "extensionPath": "/block.html"
+          "extensionPath": "/block_youreabouttoexplode.html"
         }
       },
       "condition": {
@@ -628,7 +628,7 @@
       "action": {
         "type": "redirect",
         "redirect": {
-          "extensionPath": "/block.html"
+          "extensionPath": "/block_youreabouttoexplode.html"
         }
       },
       "condition": {
@@ -644,7 +644,7 @@
       "action": {
         "type": "redirect",
         "redirect": {
-          "extensionPath": "/block.html"
+          "extensionPath": "/block_youreabouttoexplode.html"
         }
       },
       "condition": {
