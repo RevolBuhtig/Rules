@@ -685,6 +685,22 @@
           "main_frame"
         ]
       }
+    },
+    {
+      "id": 43,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block_youreabouttoexplode.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||pureislam.com^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
     }
   ]
 }
