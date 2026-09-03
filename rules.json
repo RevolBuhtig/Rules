@@ -669,6 +669,22 @@
           "main_frame"
         ]
       }
+    },
+    {
+      "id": 42,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block_youreabouttoexplode.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||islamqa.info^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
     }
   ]
 }
