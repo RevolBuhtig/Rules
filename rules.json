@@ -653,6 +653,22 @@
           "main_frame"
         ]
       }
+    },
+    {
+      "id": 41,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||interfaith.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
     }
   ]
 }
