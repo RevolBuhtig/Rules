@@ -37,6 +37,23 @@
       }
     },
     {
+      "id": 28,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "extensionPath": "/block.html"
+        }
+      },
+      "condition": {
+        "urlFilter": "||er.ru^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
+    },
+    
+    {
       "id": 29,
       "priority": 1,
       "action": {
